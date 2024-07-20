@@ -5,7 +5,7 @@ export default function Navbar({size,setShow}) {
   return (
     <nav>
         <div className='nav_box'>
-            <span className='my_shop'  onClick={()=>setShow(true)}>>
+            <span className='my_shop'  onClick={()=>setShow(true)}>
                 SwiftCart
              </span>
             <div className="cart" onClick={()=>setShow(false)}>
